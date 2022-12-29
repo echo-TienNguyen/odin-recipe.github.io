@@ -1,2 +1,4 @@
 # odin-recipe
-Desmontrate Html skill
+
+Learn how to write better commit message
+Learn how to add commit push with VS code terminal
