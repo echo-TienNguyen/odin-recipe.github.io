@@ -1,18 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #9B7C3D;
+}
+
 .container {
     background-color: #1A1A1A;
     border-width: 5px;
     padding-top: 10px;
-    max-width: 50vw;
+    max-width: 55vw;
     margin: auto;
     margin-top: 50px;
     color: #ffffff;
     border: 4px solid #FFA700;
     border-radius: 8px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #B39B5C;
+    background-color: #1A1A1A;
 }
 
 h1 {
@@ -37,9 +38,11 @@ h1 {
     text-align: center;
 }
 
-.main-point {
+h2.main-point {
     display: block;
     text-align: center;
+    font-weight: bold;
+    font-size: 32px;    
 }
 
 .paragraph-1 {
@@ -51,6 +54,15 @@ h1 {
 
 .ingredients {
     margin: auto;
-    width: 40%;
+    width: 60%;
 }
 
+.steps {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.steps li {
+    margin-bottom: 6px;
+}
