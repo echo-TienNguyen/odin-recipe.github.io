@@ -16,17 +16,20 @@ body {
 }
 
 h1 {
+    font-family: 'Dancing Script', cursive;
     text-align: center;
     margin-top: 40px;
+    font-size: 48px;
 }
 
 .images {
-    border-radius: 8px;
     display: block;
     margin: auto;
     margin-bottom: 20px;
     width: 500px;
     height: auto;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
 }
 
 .banh-cuon-link {
@@ -41,6 +44,9 @@ h1 {
 
 .paragraph-1 {
     text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .ingredients {
